@@ -5,7 +5,7 @@ const deleteProduct = (product) =>
   products.splice(products.indexOf(product), 1);
 const checkProduct = (product) => products.includes(product);
 
-addProduct("Saucisson");
-deleteProduct("Lait");
+addProduct("Chocolat");
+deleteProduct("Pates");
 console.log(checkProduct("Sucre"));
 console.log(products);
